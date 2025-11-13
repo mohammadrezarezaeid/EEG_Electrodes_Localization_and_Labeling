@@ -1,0 +1,21 @@
+# load fsl module
+
+module load fsl/6.0.0
+
+# Reorient MRI file before flirt for avoiding fliping:
+
+fslswapdim msERBCB1_3-0002-00001-000208-01.nii RL PA IS msERBCB1_3-0002-00001-000208-01_reoriented_file.nii
+
+# Register to MNI coordinate:
+
+flirt -in msERBCB1_3-0002-00001-000208-01_reoriented_file.nii -ref mb_mni_avg218T1.nii.gz -dof 12 -out HC003_elect -omat transform_mat_HC003_elect_mni.mat
+
+# Bias correction:
+
+fast --nopve -B -O 0 HC003_elect.nii.gz
+
+# Extracting a Subvolume from an MRI Image using FSLROI
+
+fslroi HC003_elect_restore.nii.gz HC003_elect_restore_cut.nii.gz 0 -1 0 -1 110 -1
+
+
