@@ -1,4 +1,4 @@
-# 📌 Surface Classification Pipeline
+# Surface Classification Pipeline
 
 This repository contains the pipeline for **vertex-wise classification of EEG electrode regions** on MRI-derived head meshes.
 
