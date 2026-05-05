@@ -39,7 +39,7 @@ Breakdown:
 
 A labeling map is used to ensure consistent indexing across all subjects. The electrode labeling follows a standardized EEG cap layout. For the complete 256-channel electrode map and detailed labeling information, please refer to the original publication:
 
-MDPI, 2022 – 256-Channel Electrode Map (https://www.mdpi.com/2076-3417/12/12/5991).*
+*MDPI, 2022 – 256-Channel Electrode Map (https://www.mdpi.com/2076-3417/12/12/5991).*
 
 ---
 
