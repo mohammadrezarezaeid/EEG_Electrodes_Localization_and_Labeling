@@ -28,10 +28,6 @@ These steps ensure that all subjects are aligned in a common space and suitable 
 
 The preprocessing pipeline requires an MNI template for registration.
 
-We use:
-
-- `mb_mni_avg218T1.nii.gz`
-
 This file serves as the reference image for affine registration using FSL (`flirt`).
 
 Make sure this file is available in your working directory or update the path in the script accordingly.
@@ -95,7 +91,7 @@ bash preprocess_mri_fsl.sh
 ## Input
 
 - Raw MRI scan (`.nii`)
-- MNI template: `mb_mni_avg218T1.nii.gz`
+- MNI template
 
 ---
 
