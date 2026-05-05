@@ -37,11 +37,9 @@ Breakdown:
 - **11 electrodes**:
   - Dummy electrodes (used for system configuration and not part of analysis)
 
-A labeling map is used to ensure consistent indexing across all subjects. The electrode labeling follows a standardized EEG cap layout.
+A labeling map is used to ensure consistent indexing across all subjects. The electrode labeling follows a standardized EEG cap layout. For the complete 256-channel electrode map and detailed labeling information, please refer to the original publication:
 
-![256-channel electrode map](./electrode_map_256.png)
-
-*Figure: 256-channel electrode map adapted from [MDPI, 2022](https://www.mdpi.com/2076-3417/12/12/5991).*
+MDPI, 2022 – 256-Channel Electrode Map
 
 ---
 
