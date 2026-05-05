@@ -13,9 +13,9 @@ piecewise linear registration in a 2D "pancake" projection.
 ### 2. Constant Standard Deviation
 - Fixed neighborhood based on mean of electrodes' neighbours distance from their neighborhood
 
-### 3. de Munck et al. Method 
+### 3. Reference Method
 
-Implementation of:
+For comparison with previously published work, please refer to:
 
 > de Munck et al.,  
 > *"A semi-automatic method to determine electrode positions and labels from gel artifacts in EEG/fMRI-studies"*
