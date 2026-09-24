@@ -1,4 +1,4 @@
-# Step 2 — Curvature features (and optional ground-truth labels)
+# Step 2 — Curvature features and ground-truth labels
 
 Describes the shape of the surface around every vertex, so that a classifier
 can tell "this looks like an electrode" from "this looks like plain scalp".
@@ -84,17 +84,13 @@ through the MATLAB Add-On Explorer.
 
 ---
 
-## Part B — Ground-truth mesh labeling (optional)
+## Part B — Ground-truth mesh labeling
 
 ### Why you might want it
 
 Step 2 produces features; step 3 turns them into a per-vertex decision. To
 *measure* how good that decision is, each vertex also needs a true answer:
 was it really on an electrode? That is what this part produces.
-
-It is optional. Without it the pipeline still runs end to end and still outputs
-electrode positions — it simply cannot report the per-vertex accuracy of each
-classifier in step 3.
 
 ### Why it takes two scripts
 
@@ -141,8 +137,7 @@ is a non-electrode vertex. This pairs with `features_vertices{i}` — same
 surface, same vertex numbering.
 
 `HC023_electrode_position_SCS.mat` is also what the evaluation in steps 4 and 5
-loads, so run B1 even if you skip B2.
-
+loads.
 ### How to run
 
 ```matlab
@@ -172,5 +167,4 @@ Ground_truth_surface_labeling % B2: positions into per-vertex labels
 ## Next
 
 Step 3 loads `HC023_features_vertices.mat`, applies the trained classifiers,
-and writes one electrode / non-electrode label per vertex. If you ran part B,
-it also reports how that compares with `HC023_mesh_gt.mat`.
+and writes one electrode / non-electrode label per vertex. It also reports how that compares with `HC023_mesh_gt.mat`.
