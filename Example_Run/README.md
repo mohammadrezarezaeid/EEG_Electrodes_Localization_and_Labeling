@@ -23,7 +23,7 @@ You need these toolboxes and add-ons:
 - **Statistics and Machine Learning Toolbox**
 - **[Brainstorm](https://neuroimage.usc.edu/brainstorm/Installation)**, on the MATLAB path, with a database folder configured. If you have never used Brainstorm, run `brainstorm` once interactively to set this up.
 - **SPM12 plugin of Brainstorm**, used for the MNI normalization. Brainstorm offers to install it the first time it is needed.
-- **`GetCurvatures.m`** by Itzik Ben Shabat. In MATLAB, go to **Home > Add-Ons**, search for *"Curvature Estimation On Triangle Mesh"*, and install it.
+- **[GetCurvatures.m](https://www.mathworks.com/matlabcentral/fileexchange/47134-curvature-estimationl-on-triangle-mesh)** by Itzik Ben Shabat. In MATLAB, go to **Home > Add-Ons**, search for *"Curvature Estimation On Triangle Mesh"*, and install it.
 
 ### Python 3.9 or newer
 
