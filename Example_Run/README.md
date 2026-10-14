@@ -64,7 +64,7 @@ python step2_classification.py
 
 **Output:** `results/step2/HC023_pred.mat`
 
-See Step 2 setup to install Python, use a GPU, or run it in Google Colab.
+See Step 2 setup to run it in Google Colab.
 
 ### Step 3: run `step3_detection.m` in MATLAB
 
