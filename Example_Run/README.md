@@ -27,7 +27,7 @@ You need these toolboxes and add-ons:
 
 ### Python 3.9 or newer
 
-You need `numpy`, `scipy` and [PyTorch](https://pytorch.org/get-started/locally/). Step 2 runs on a CPU, on a local NVIDIA GPU, or in Google Colab. The [Step 2 setup](#step-2-setup-python-cpu-or-gpu) section below shows how to install these.
+You need `numpy`, `scipy` and [PyTorch](https://pytorch.org/get-started/locally/). Step 2 runs on a CPU, on a local NVIDIA GPU, or in Google Colab. The Step 2 setup section below shows how to install these.
 
 ---
 
@@ -64,7 +64,7 @@ python step2_classification.py
 
 **Output:** `results/step2/HC023_pred.mat`
 
-See [Step 2 setup](#step-2-setup-python-cpu-or-gpu) to install Python, use a GPU, or run it in Google Colab.
+See Step 2 setup to install Python, use a GPU, or run it in Google Colab.
 
 ### Step 3: run `step3_detection.m` in MATLAB
 
