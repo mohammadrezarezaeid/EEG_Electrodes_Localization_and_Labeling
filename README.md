@@ -15,10 +15,31 @@ The project introduces a fully automated framework for EEG electrode localizatio
 ├── Detection/
 ├── Registration/
 ├── Manual_Labeling/
+├── Example/
+├── Example_Run/
 └── README.md
 ```
 
 ---
+
+# Getting Started
+
+Two examples are provided to help users apply the pipeline to a test subject, depending on their preferred workflow.
+
+## 1. Example: Step-by-Step Pipeline
+
+The Example/ folder provides a step-by-step demonstration of the proposed pipeline applied to a test subject. It allows users to follow the individual processing stages, inspect intermediate results, and understand how the different components of the framework work together.
+
+This example is recommended for users who want to understand the methodology and explore the implementation in detail.
+
+## 2. Example_Run: Ready-to-Run Demonstration
+
+The Example_Run/ folder provides a simplified and user-friendly example for users who want to run the code and see the results without manually going through each processing step.
+
+This example is recommended for users who want to quickly test the framework and become familiar with its outputs.
+
+For a detailed understanding of the implementation, users can refer to the step-by-step example in the Example/ folder.
+
 
 # Pipeline Overview
 
